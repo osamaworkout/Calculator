@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    text-align: -webkit-center;
+}
+
+.cal{
+    border: 3px groove #ccc;
+    width: 36vh;
+    height: 44vh;
+    border-radius: 5px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen>input[type="text"]{
+    width: 35vh;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 4px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.screen-1>input[type="text"]{
+    width: 20vh;
+    height: 25px;
+    float: left;
+    margin-top: 5px;
+    border-radius: 7px;
+    background-color: #373e58;
+    border: none;
+}
+
+.section-one{
+    margin-top: 15px;
+    width: 35vh;
+}
+
+.dir>button{
+    width: 10px;
+}
+
+.felx-one,
+.felx-sec,
+.felx-third,
+.felx-forth,
+.felx-fifth{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3 ease-in-out;
+}
+
+button:hover{
+    background-color: #ddd;
+}
+
+.felx-one button{
+    background-color: #c9302c;
+}
+
+.felx-one button:hover{
+    background-color: #c9302c;
+}
+
+.cal input[type="text"]:focus{
+    outline: none;
+    border: 2px solid #007bff;
+}
